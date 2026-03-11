@@ -1,1 +1,66 @@
+body{
+font-family: Arial;
+margin:0;
+background:#e8f8f5;
+}
 
+header{
+background:linear-gradient(90deg,#0f9d58,#2196f3);
+color:white;
+text-align:center;
+padding:40px;
+}
+
+nav{
+background:#0f9d58;
+text-align:center;
+padding:15px;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+section{
+padding:40px;
+}
+
+h2{
+color:#2196f3;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+transition:transform 0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+#about{
+background:#d6f5ea;
+border-top:4px solid #2196f3;
+}
+
+footer{
+background:#2196f3;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
