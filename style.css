@@ -5,14 +5,14 @@ background:#e8f8f5;
 }
 
 header{
-background:linear-gradient(90deg,#0f9d58,#2196f3);
+background:linear-gradient(90deg,#00FFFF,#2196f3);
 color:white;
 text-align:center;
 padding:40px;
 }
 
 nav{
-background:#0f9d58;
+background:#00FFFF;
 text-align:center;
 padding:15px;
 }
